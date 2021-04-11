@@ -1,0 +1,25 @@
+{
+    "name": "rekamy/timezone",
+    "description": "Timezone List Plugin",
+    "license": "MIT",
+    "keywords": [
+        "rekamy",
+        "timezone",
+        "timezones"
+    ],
+    "require": {
+        "php": "^7.2 || ^8.0",
+        "laravel/framework": "^8.0 || ^7.0"
+    },
+    "authors": [
+        {
+            "name": "Firdaus Ishaddin",
+            "email": "firdausishaddin@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Rekamy\\Timezone\\": "src/"
+        }
+    }
+}
