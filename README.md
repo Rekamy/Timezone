@@ -40,3 +40,7 @@ use Rekamy\Timezone\TimezoneList;
 
 return TimezoneList::timezonesToArray();
 ```
+
+## License
+
+Rekamy Timezone is open-sourced software licensed under the MIT license
