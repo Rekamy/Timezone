@@ -17,9 +17,22 @@
             "email": "firdausishaddin@gmail.com"
         }
     ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Rekamy\\Generator\\GeneratorServiceProvider"
+            ]
+        }
+    },
     "autoload": {
         "psr-4": {
             "Rekamy\\Timezone\\": "src/"
         }
-    }
+    },
+    "repositories": [
+        {
+            "type": "path",
+            "url": "../../rekamy/timezone"
+        }
+    ]
 }
