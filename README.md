@@ -31,3 +31,12 @@ The recommended way to install Rekamy Timezone is through Composer.
 ```bash
 composer require rekamy/timezone
 ```
+
+## Usage
+```bash
+use Rekamy\Timezone\TimezoneList;
+
+...
+
+return TimezoneList::timezonesToArray();
+```
